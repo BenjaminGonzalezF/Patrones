@@ -1,4 +1,6 @@
 # Patrones
+Integrantes: Romina Fernández y Benjamín González.
+
 Implementación de base semi funcional de los patrones:
  Bridge - Composite - Factory method - Observer - Singleton - State
 
