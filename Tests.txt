@@ -1,0 +1,23 @@
+Test de ingreso:
+	(aprobado) -Usuario:  Romi Contraseña: Romi Salida exitosa: Error.
+	(aprobado) -Usuario:  admin Contraseña: admin Salida exitosa: Ingreso al sistema.
+
+Test de agregar categoria de usuario:
+	(aprobado) -Nombre: cocina Salida exitosa: Continuar con el sistema.
+	(aprobado) -Nombre: sala Salida exitosa: Continuar con el sistema.
+
+Test de crear artefacto:
+	(aprobado) -Tipo: c Salida exitosa: Invalido.
+	(aprobado) -Tipo: a Nombre:Tv Salida exitosa: Continuar con el sistema.
+	(aprobado) -Tipo: b Nombre:Congelador Salida exitosa: Continuar con el sistema.
+
+Test de visualización de estructura:
+	(aprobado) - Salida exitosa: Categoria de usuario base, categoria cocina y sala.
+
+Test de agregar artefacto en categoria:
+	(aprobado) -Id categoria: 3 Salida exitosa: Indice de categoria invalido.
+	(aprobado) -Id categoria: 1 Id artefacto: 2 Salida exitosa: Artefacto agregado correcatamente a la categoria Id: 1
+	(aprobado) -Id categoria: 1 Id artefacto: 5 Salida exitosa: Id de artefacto invalido.
+
+Test de eliminacion de categoria:
+	(rechazado) -Salida exitosa: Solicitar datos de la categoria.
